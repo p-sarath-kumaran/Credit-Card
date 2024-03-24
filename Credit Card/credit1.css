@@ -1,0 +1,58 @@
+.card{
+    width: 360px;
+    height: 220px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: auto;
+    padding: 7px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-name{
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    vertical-align: center;
+}
+.card-name p{
+    font-size: 20px;
+    padding-top: 2px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.card-name img{
+    width: 75px;
+    height: 70px;
+}
+.middle{
+    line-height: 0.5;
+    margin-top: 25px;
+}
+.middle .name{
+    font-size: 14px;
+}
+.middle .number{
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+.low{
+    display: flex;
+    justify-content: space-between;
+}
+.low-1 p{
+    margin-bottom: 0;
+    height: 16px;
+    padding-top: 10px;
+
+}
+.low-2{
+    margin-right: 10px;
+}
+.low-2 p{
+    margin: 0;
+    height: 20px;
+}
+.valid{
+    padding-top: 5px;
+}
